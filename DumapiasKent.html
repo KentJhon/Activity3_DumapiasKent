@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: "Times New Roman", Georgia, Serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div
+        class="w3-bar w3-white w3-padding w3-card"
+        style="letter-spacing: 4px"
+      >
+        <a href="#home" class="w3-bar-item w3-button">Japanese Restau</a>
+        <!-- Right-sided navbar links. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button">About</a>
+          <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+          <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header
+      class="w3-display-container w3-content w3-wide"
+      style="max-width: 1600px; min-width: 500px"
+      id="home"
+    >
+      <img
+        class="w3-image"
+        src="katsudon.jpg"
+        alt="Hamburger Catering"
+        width="1600"
+        height="800"
+      />
+      <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+        <h1 class="w3-xxlarge">Le Catering</h1>
+      </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width: 1100px">
+      <!-- About Section -->
+      <div class="w3-row w3-padding-64" id="about">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <img
+            src="restau.jpg"
+            class="w3-round w3-image w3-opacity-min"
+            alt="Table Setting"
+            width="600"
+            height="750"
+          />
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+          <h1 class="w3-center">About Japanese Restau</h1>
+          <br />
+          <h5 class="w3-center">Tradition since 1889</h5>
+          <p class="w3-large">
+            In the bustling streets of Tokyo's historic Asakusa district,
+            nestled amidst the traditional architecture and vibrant culture,
+            lies Japanese Restau, a culinary haven with a rich history spanning
+            nearly four decades. Founded in 1985 by husband-and-wife duo Hiroshi
+            and Emiko Tanaka, Japanese Restau was born out of their shared
+            passion for preserving and sharing the authentic flavors of Japanese
+            cuisine. Both hailing from families deeply rooted in culinary
+            traditions, Hiroshi, with his expertise in traditional cooking
+            techniques, and Emiko, with her keen eye for hospitality, embarked
+            on a journey to create a dining experience that would captivate the
+            senses and nurture the soul. We only use
+            <span class="w3-tag w3-light-grey">fresh</span> ingredients.
+          </p>
+          <p class="w3-large w3-text-grey w3-hide-medium">
+            The restaurant's name, Japanese Restau, pays homage to Japan's
+            iconic cherry blossoms, symbolizing the fleeting beauty and
+            ephemeral nature of life—a sentiment echoed in their culinary
+            philosophy of embracing simplicity and savoring each moment.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Menu Section -->
+      <div class="w3-row w3-padding-64" id="menu">
+        <div class="w3-col l6 w3-padding-large">
+          <h1 class="w3-center">Our Menu</h1>
+          <br />
+          <h4>Sushi</h4>
+          <p class="w3-text-grey">
+            Sushi is perhaps Japan's most famous culinary export. It typically
+            consists of vinegared rice combined with various ingredients such as
+            raw or cooked seafood, vegetables, and sometimes tropical fruits.
+            Sushi is often served with soy sauce, wasabi, and pickled ginger.
+          </p>
+          <br />
+
+          <h4>Sashimi</h4>
+          <p class="w3-text-grey">
+            Sashimi refers to thinly sliced raw fish or seafood served without
+            rice. It emphasizes the quality and freshness of the ingredients,
+            often accompanied by soy sauce and wasabi.
+          </p>
+          <br />
+
+          <h4>Tempura</h4>
+          <p class="w3-text-grey">
+            Tempura consists of lightly battered and deep-fried seafood,
+            vegetables, or even mushrooms. The batter is typically made with
+            flour, water, and sometimes egg, resulting in a crispy and light
+            texture.
+          </p>
+          <br />
+
+          <h4>Ramen</h4>
+          <p class="w3-text-grey">
+            Ramen is a popular noodle soup dish consisting of Chinese-style
+            wheat noodles served in a flavorful broth, often flavored with soy
+            sauce, miso, or salt, and topped with various ingredients such as
+            sliced pork, green onions, nori (seaweed), and boiled eggs.
+          </p>
+          <br />
+
+          <h4>Katsudon</h4>
+          <p class="w3-text-grey">
+            Katsudon is a popular Japanese dish that combines a deep-fried pork
+            cutlet (tonkatsu) with eggs, onions, and a sweet and savory sauce,
+            all served over a bowl of steamed rice.
+          </p>
+        </div>
+
+        <div class="w3-col l6 w3-padding-large">
+          <img
+            src="menu.jpg"
+            class="w3-round w3-image w3-opacity-min"
+            alt="Menu"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Contact Section -->
+      <div class="w3-container w3-padding-64" id="contact">
+        <h1>Contact</h1>
+        <br />
+        <p>
+          We offer different kinds of Japanese cuisine. We understand your needs
+          and we will cater the food to satisfy the biggerst criteria of them
+          all, both look and taste. Do not hesitate to contact us.
+        </p>
+        <p class="w3-text-blue-grey w3-large">
+          <b>Japanese Restau, Asakusa district, JP</b>
+        </p>
+        <p>
+          You can also contact us by phone 00553123-2323 or email
+          japaneserestau@catering.com, or you can send us a message here:
+        </p>
+        <form action="/action_page.php" target="_blank">
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Name"
+              required
+              name="Name"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="number"
+              placeholder="How many people"
+              required
+              name="People"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="datetime-local"
+              placeholder="Date and time"
+              required
+              name="date"
+              value="2020-11-16T20:00"
+            />
+          </p>
+          <p>
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Message \ Special requirements"
+              required
+              name="Message"
+            />
+          </p>
+          <p>
+            <button class="w3-button w3-light-grey w3-section" type="submit">
+              SEND MESSAGE
+            </button>
+          </p>
+        </form>
+      </div>
+
+      <!-- End page content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+      <p>
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >w3.css</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
